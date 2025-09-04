@@ -10,10 +10,7 @@
   "minimumReleaseAge": "5 days",
   "schedule": "before 9am on tuesday",
   "labels": ["dependencies", "renovate", "changelog:skip"],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": "before 9am on tuesday"
-  },
+  "postUpdateOptions": ["pnpmDedupe"],
   "packageRules": [
     {
       "groupName": "@immich/ui",
