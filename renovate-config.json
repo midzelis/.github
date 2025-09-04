@@ -14,7 +14,6 @@
     "enabled": true,
     "automerge": true
   },
-  "postUpdateOptions": ["pnpmDedupe"],
   "packageRules": [
     {
       "groupName": "@immich/ui",
